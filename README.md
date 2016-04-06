@@ -36,4 +36,4 @@ kubectl create -f mongos-node3.yaml
 >
 3、mongos server must last launch.
 >
-4、this just my simplely test
+4、this just my simplely test, when launched then you have to sharding database and set admin password
