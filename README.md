@@ -27,3 +27,11 @@ kubectl create -f mongos-node1.yaml
 kubectl create -f mongos-node2.yaml
 >
 kubectl create -f mongos-node3.yaml
+
+#notice
+>
+1、replicationSet server port is fixed with 27017，config server is 20000，mongs server is 30000.
+>
+2、you can custom replicationSet name just change the variable RepliSetName.
+>
+3、mongos server must launch latest.
