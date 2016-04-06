@@ -30,10 +30,10 @@ kubectl create -f mongos-node3.yaml
 
 #notice
 >
-1、replicationSet server port is fixed with 27017，config server is 20000，mongs server is 30000.
+1、replicationSet server port is fixed with 27017，config server is 20000，mongs server is 30000, you can use RS1_SERVICE_PORT change it.
 >
 2、you can custom replicationSet name just change the variable RepliSetName.
 >
 3、mongos server must last launch.
 >
-4、this just my test, carefully use it.
+4、this just my simplely test
