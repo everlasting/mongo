@@ -34,6 +34,6 @@ kubectl create -f mongos-node3.yaml
 >
 2、you can custom replicationSet name just change the variable RepliSetName.
 >
-3、mongos server must last launch.
+3、mongos server must last launch, and you must launch two mongos servers.
 >
 4、this just my simplely test, when launched then you have to sharding database and set admin password
