@@ -35,3 +35,5 @@ kubectl create -f mongos-node3.yaml
 2、you can custom replicationSet name just change the variable RepliSetName.
 >
 3、mongos server must last launch.
+>
+4、this just my test, carefully use it.
