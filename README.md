@@ -31,7 +31,9 @@ kubectl create -f mongos-node3.yaml
 then you can scale mongos
 >
 kubectl scale rc mongos1 --replicas=3
+>
 kubectl scale rc mongos2 --replicas=3
+>
 kubectl scale rc mongos3 --replicas=3
 
 #notice
