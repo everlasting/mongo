@@ -28,6 +28,12 @@ kubectl create -f mongos-node2.yaml
 >
 kubectl create -f mongos-node3.yaml
 
+then you can scale mongos
+>
+kubectl scale rc mongos1 --replicas=3
+kubectl scale rc mongos2 --replicas=3
+kubectl scale rc mongos3 --replicas=3
+
 #notice
 >
 1、replicationSet server port is fixed with 27017，config server is 20000，mongs server is 30000, you can use RS1_SERVICE_PORT change it.
