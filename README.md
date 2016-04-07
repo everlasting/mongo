@@ -28,7 +28,7 @@ kubectl create -f mongos-node2.yaml
 >
 kubectl create -f mongos-node3.yaml
 
-then you can scale mongos
+then you can scale pod
 >
 kubectl scale rc mongos1 --replicas=3
 >
@@ -42,6 +42,6 @@ kubectl scale rc mongos3 --replicas=3
 >
 2、you can custom replicationSet name just change the variable RepliSetName.
 >
-3、mongos server must last launch, and you must launch two mongos servers at least.
+3、mongos server must launch last, and you must launch two mongos servers at least.
 >
 4、when launched then you have to sharding database and set admin password, this just one piece of sharding.
